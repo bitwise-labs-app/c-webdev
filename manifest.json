@@ -1,0 +1,31 @@
+{
+    "$schema": "https://raw.githubusercontent.com/bitwize-app/resources/main/schema/course-manifest.json",
+    "courseName": "Python",
+    "courseAuthors": [ "infinity-atom" ],
+    "index": "./internal/index.md",
+    "appendToBody": "./imports.html",
+    "extraCourseInternalPages": [
+        "./internal/setup.md"
+    ],
+    "content": [
+        {
+            "chapterName": "Basics",
+            "lessons": [
+                "./chapter-basics/writing-text.md",
+                "./chapter-basics/comments.md",
+                "./chapter-basics/variables.md",
+                "./chapter-basics/input.md",
+                "./chapter-basics/operations.md",
+                "./chapter-basics/data-types.md",
+                "./chapter-basics/python-repl.md",
+                "./chapter-basics/project-addition-calculator.md"
+            ]
+        },
+        {
+            "chapterName": "Logic",
+            "lessons": [
+                "./chapter-logic/conditional-statements.md"
+            ]
+        }
+    ]
+}

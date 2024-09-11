@@ -1,0 +1,15 @@
+{
+  "name": "idkhow-python",
+  "version": "1.0.0",
+  "main": "generate.js",
+  "scripts": {
+    "generate": "node ."
+  },
+  "keywords": [],
+  "author": "infinity-atom",
+  "license": "MIT",
+  "description": "Python course on idkHow",
+  "dependencies": {
+    "webgen": "github:idkhow-app/webgen"
+  }
+}
