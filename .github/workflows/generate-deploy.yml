@@ -1,0 +1,38 @@
+name: Generate and deploy site
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install NPM packages
+        run: npm install
+      
+      - name: Generate site
+        run: npm run generate
+
+      - name: Setup pages
+        uses: actions/configure-pages@v5
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./out"
+      
+      - name: Deploy to GH Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
