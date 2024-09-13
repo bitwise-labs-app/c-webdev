@@ -4,7 +4,7 @@ name: Writing text
 
 Writing text is a common task, found in almost every program. In Python, you can write text by using `print`.
 
-<div class="info" data-header="Information">
+<div class="alert alert-primary">
     In many programming languages, `print` refers to "printing" text to the screen. It has nothing to do with printers or paper.
 </div>
 
@@ -14,7 +14,7 @@ Let's have a look at a basic example. This program will say "Hello!"
 print("Hello!")
 ```
 
-<div class="info" data-header="Experiment">
+<div class="alert alert-primary">
     Try changing "Hello!" in the code to something else. What happens?
 </div>
 

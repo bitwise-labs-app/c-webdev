@@ -24,7 +24,8 @@
         {
             "chapterName": "Logic",
             "lessons": [
-                "./chapter-logic/conditional-statements.md"
+                "./chapter-logic/conditional-statements.md",
+                "./chapter-logic/if-statements.md"
             ]
         }
     ]

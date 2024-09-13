@@ -4,7 +4,7 @@ name: Using the REPL
 
 Python has a built in program called the REPL. You can type in code and it will execute immediately. It's useful for quickly testing things, or using as a calculator!
 
-<div class="info" data-header="Information">
+<div class="alert alert-primary" markdown="true">
 REPL stands for **R**ead, **E**valuate, **P**rint, **L**oop. This means that it will **read** your input, **evaluate** the code, **print** the output, and then **loop**.
 </div>
 

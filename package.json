@@ -1,5 +1,5 @@
 {
-  "name": "idkhow-python",
+  "name": "bitwiselabsapp-python",
   "version": "1.0.0",
   "main": "generate.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "license": "MIT",
   "description": "Python course on idkHow",
   "dependencies": {
-    "webgen": "github:idkhow-app/webgen"
+    "webgen": "github:bitwise-labs-app/webgen"
   }
 }

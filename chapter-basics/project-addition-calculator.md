@@ -18,18 +18,8 @@ a_int = int(a)
 b_int = int(b)
 ```
 
-<div class="warning" data-header="Don't forget to convert the data type!">
+<div class="alert alert-warning">
     Make sure to convert the string to an integer or float, because look at what happens if you don't! Try running <code>"5" + "6"</code> in your REPL.
-    <br><br>
-    <details>
-        <summary>Output</summary>
-        ```python-repl
-        >>> "5" + "6"
-        56
-        >>> 5 + 6
-        11
-        ```
-    </details>
 </div>
 
 ## Performing the math
@@ -59,7 +49,7 @@ final_number = a + b
 print("The sum of the two numbers is " + str(final_number))
 ```
 
-<div class="info" data-header="Extra Activities">
+<div class="alert alert-primary">
     <ul>
         <li>Try adding comments in the code to describe the program</li>
         <li>Can you work out why you can't add numbers with decimals? <em>Hint: check 1.6 Data types</em></li>

@@ -19,14 +19,14 @@ print(6 / 2)
 print(2 * (5 + 5))
 ```
 
-<div class="info" data-header="Information">
+<div class="alert alert-primary">
 Just like in math outside of computers, order of operations still applies (BODMAS, POMDAS, etc.). `2 * (5 + 5)` does not equal `2 * 5 + 5`.
 </div>
 
 # Operations to strings
 You can use some operators on strings too! The `+` operator can join strings and the `*` operator can repeat text.
 
-<div class="info" data-header="Information">
+<div class="alert alert-primary">
 In programming, joining strings is commonly referred to as string concatenation.
 </div>
 
