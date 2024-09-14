@@ -4,6 +4,7 @@
     "courseAuthors": [ "infinity-atom" ],
     "index": "./internal/index.md",
     "appendToBody": "./imports.html",
+    "includeDir": "./include",
     "extraCourseInternalPages": [
         "./internal/setup.md"
     ],
