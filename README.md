@@ -1,2 +1,2 @@
-# Python on idkHow
+# Python on bitwise
 learn python!
