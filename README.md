@@ -1,2 +1,1 @@
-# Python on bitwise
-learn python!
+maek websat
